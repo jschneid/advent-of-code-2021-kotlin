@@ -6,13 +6,16 @@ fun main() {
 
     fun updatePosition(instruction: Instruction, position: Position) {
         when (instruction.command) {
-            "forward" -> position.horizontalPosition += instruction.value
-            "down" -> position.depth += instruction.value
-            "up" -> position.depth -= instruction.value
+            "forward" -> {
+                position.horizontalPosition += instruction.value
+                position.depth += instruction.value * position.aim
+            }
+            "down" -> position.aim += instruction.value
+            "up" -> position.aim -= instruction.value
         }
     }
 
-    fun part1(inputLines: List<String>): Int {
+    fun part2(inputLines: List<String>): Int {
         val position = Position()
         for (inputLine in inputLines) {
             val instruction: Instruction = parseInstruction(inputLine)
@@ -23,8 +26,8 @@ fun main() {
 
     // test if this implementation returns the correct result for the sample input
     val testInput = readInput("../inputs/Day02_sample")
-    check(part1(testInput) == 150)
+    check(part2(testInput) == 900)
 
     val input = readInput("../inputs/Day02")
-    println(part1(input))
+    println(part2(input))
 }
