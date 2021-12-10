@@ -1,25 +1,19 @@
 # advent-of-code-2021-kotlin
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [jschneid][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+Solutions to a few of the [Advent of Code (AoC) 2021][aoc] puzzles in Kotlin.
 
-In this repository, jschneid is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+Why just "a few"? I'm actually primarily working in [Ruby for my AoC 2021 solutions][aoc-ruby]! However, I was intrigued by a sponsored message that JetBrain was running on the Advent of Code site:
 
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
+> Get ready to jingle with Advent of Code in Kotlin! Have fun, learn new things, and win prizes. Believe in magic with Kotlin. Happy holidays! https://jb.gg/AoC
 
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
+That link redirected to a [post on the JetBrains / Kotlin blog][post] inviting developers to try out the Kotlin language via the AoC problems, and providing a nice [Kotlin AoC GitHub template][template] as a starting point. 
 
+I'd never worked with Kotlin before, but [I have used AoC to try out new programming languages before][aoc-typescript]. Serendipitously, I had some time available on the same day in which I came across the ad, and so I decided to give it a go!  
 
-[^aoc]:
-    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
-    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-four days.
-    You can solve the puzzle and provide an answer using the language of your choice.
+(So, Kotlin team, if you're reading this: The combination of your ad on the AoC site, your blog post, and your GitHub template worked! Nice going! I almost never click on ads!)
 
-[aoc]: https://adventofcode.com
-[docs]: https://kotlinlang.org/docs/home.html
-[github]: https://github.com/jschneid
-[issues]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template/issues
-[kotlin]: https://kotlinlang.org
-[slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
+[aoc]: https://adventofcode.com/2021
+[aoc-ruby]: https://github.com/jschneid/advent-of-code-2021
+[aoc-typescript]: https://github.com/jschneid/advent-of-code-2019
+[post]: https://blog.jetbrains.com/kotlin/2021/11/advent-of-code-2021-in-kotlin/
 [template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
